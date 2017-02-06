@@ -1,0 +1,18 @@
+[submodule "module/Hebis"]
+	path = module/Hebis
+	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/vufind-module-hebis.git
+[submodule "themes/hebisbs3"]
+	path = themes/hebisbs3
+	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/hebisbs3.git
+[submodule "themes/judaica"]
+	path = themes/judaica
+	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/theme-judaica.git
+[submodule "themes/ubffm"]
+	path = themes/ubffm
+	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/theme-ubffm.git
+[submodule "local-ubffm"]
+	path = local-ubffm
+	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/local-ubffm.git
+[submodule "local-judaica"]
+	path = local-judaica
+	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/local-judaica.git
