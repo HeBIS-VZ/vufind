@@ -28,7 +28,11 @@
         "zendframework/zendframework": "2.4.6",
         "zendframework/zendrest": "2.0.2",
         "zendframework/zendservice-amazon": "2.0.4",
-        "zf-commons/zfc-rbac": "2.5.2"
+        "zf-commons/zfc-rbac": "2.5.2",
+        "hebis/picareader": "dev-hebis",
+        "hebis/hds2-i18n": "dev-master",
+        "league/oauth2-client": "^1.4",
+        "academicpuma/citeproc-php": "dev-version1.x"
     },
     "require-dev": {
         "behat/mink": "1.7.0",
@@ -38,6 +42,7 @@
         "phpmd/phpmd": "1.5.0",
         "phpunit/phpunit": "4.8.27",
         "sebastian/phpcpd": "2.0.0",
-        "squizlabs/php_codesniffer": "2.6.0"
+        "squizlabs/php_codesniffer": "2.6.0",
+        "box/spout": "^2.4"
     }
 }
