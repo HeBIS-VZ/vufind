@@ -32,7 +32,7 @@
         "hebis/picareader": "dev-hebis",
         "hebis/hds2-i18n": "dev-master",
         "league/oauth2-client": "^1.4",
-        "academicpuma/citeproc-php": "dev-version1.x"
+        "seboettg/citeproc-php": "^2.0"
     },
     "require-dev": {
         "behat/mink": "1.7.0",
@@ -44,5 +44,31 @@
         "sebastian/phpcpd": "2.0.0",
         "squizlabs/php_codesniffer": "2.6.0",
         "box/spout": "^2.4"
-    }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "citation-style-language/locales",
+                "version":"1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/citation-style-language/locales.git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "citation-style-language/styles-distribution",
+                "version":"1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/citation-style-language/styles-distribution.git",
+                    "reference": "master"
+                }
+            }
+        }
+    ]
 }
