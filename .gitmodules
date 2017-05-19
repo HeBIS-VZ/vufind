@@ -16,3 +16,9 @@
 [submodule "local-judaica"]
 	path = local-judaica
 	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/local-judaica.git
+[submodule "themes/ubgi"]
+	path = themes/ubgi
+	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/theme-ubgi.git
+[submodule "local-ubgi"]
+	path = local-ubgi
+	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/local-ubgi.git
