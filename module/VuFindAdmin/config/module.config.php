@@ -10,7 +10,6 @@ $config = [
             'adminmaintenance' => 'VuFindAdmin\Controller\MaintenanceController',
             'adminstatistics' => 'VuFindAdmin\Controller\StatisticsController',
             'admintags' => 'VuFindAdmin\Controller\TagsController',
-            'adminlogs' => 'VuFindAdmin\Controller\AdminLogs'
         ],
     ],
     'router' => [
@@ -83,16 +82,6 @@ $config = [
                             'defaults' => [
                                 'controller' => 'AdminTags',
                                 'action'     => 'Home',
-                            ]
-                        ]
-                    ],
-                    'logs' => [
-                        'type' => 'Zend\Mvc\Router\Http\Segment',
-                        'options' => [
-                            'route' => '/Logs[/:action]',
-                            'defaults' => [
-                                'controller' => 'AdminLogs',
-                                'action' => 'Home',
                             ]
                         ]
                     ],
