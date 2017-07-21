@@ -135,6 +135,10 @@ trait TranslatorAwareTrait
         $domain = 'default'
     ) {
 
+        if ($this->translator->getLocale() === "code") {
+            return "*$str*";
+        }
+
         $msg = (null === $this->translator)
             ? $str : $this->translator->translate($str, $domain);
 
