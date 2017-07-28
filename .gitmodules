@@ -1,24 +1,24 @@
 [submodule "module/Hebis"]
 	path = module/Hebis
-	url = http://golgo.hebis.uni-frankfurt.de/hds/hds-module.git
+	url = https://git.hebis.de/hds/hds-module.git
 [submodule "themes/hebisbs3"]
 	path = themes/hebisbs3
-	url = http://golgo.hebis.uni-frankfurt.de/hds/theme-hebisbs3.git
+	url = https://git.hebis.de/hds/theme-hebisbs3.git
 [submodule "themes/judaica"]
 	path = themes/judaica
-	url = http://golgo.hebis.uni-frankfurt.de/hds/theme-judaica.git
+	url = https://git.hebis.de/hds/theme-judaica.git
 [submodule "themes/ubffm"]
 	path = themes/ubffm
-	url = http://golgo.hebis.uni-frankfurt.de/hds/theme-ubffm.git
+	url = https://git.hebis.de/hds/theme-ubffm.git
 [submodule "local-ubffm"]
 	path = local-ubffm
-	url = http://golgo.hebis.uni-frankfurt.de/hds/local-ubffm.git
+	url = https://git.hebis.de/hds/local-ubffm.git
 [submodule "local-judaica"]
 	path = local-judaica
-	url = http://golgo.hebis.uni-frankfurt.de/hds/local-judaica.git
+	url = https://git.hebis.de/hds/local-judaica.git
 [submodule "themes/ubgi"]
 	path = themes/ubgi
-	url = http://golgo.hebis.uni-frankfurt.de/hds/theme-ubgi.git
+	url = https://git.hebis.de/hds/theme-ubgi.git
 [submodule "local-ubgi"]
 	path = local-ubgi
-	url = http://golgo.hebis.uni-frankfurt.de/hds/local-ubgi.git
+	url = https://git.hebis.de/hds/local-ubgi.git
