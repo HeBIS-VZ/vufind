@@ -1,24 +1,24 @@
 [submodule "module/Hebis"]
 	path = module/Hebis
-	url = https://git.hebis.de/hds/hds-module.git
+	url = git@git.hebis.de/hds/hds-module.git
 [submodule "themes/hebisbs3"]
 	path = themes/hebisbs3
-	url = https://git.hebis.de/hds/theme-hebisbs3.git
+	url = git@git.hebis.de/hds/theme-hebisbs3.git
 [submodule "themes/judaica"]
 	path = themes/judaica
-	url = https://git.hebis.de/hds/theme-judaica.git
+	url = git@git.hebis.de/hds/theme-judaica.git
 [submodule "themes/ubffm"]
 	path = themes/ubffm
-	url = https://git.hebis.de/hds/theme-ubffm.git
+	url = git@git.hebis.de/hds/theme-ubffm.git
 [submodule "local-ubffm"]
 	path = local-ubffm
-	url = https://git.hebis.de/hds/local-ubffm.git
+	url = git@git.hebis.de/hds/local-ubffm.git
 [submodule "local-judaica"]
 	path = local-judaica
-	url = https://git.hebis.de/hds/local-judaica.git
+	url = git@git.hebis.de/hds/local-judaica.git
 [submodule "themes/ubgi"]
 	path = themes/ubgi
-	url = https://git.hebis.de/hds/theme-ubgi.git
+	url = git@git.hebis.de/hds/theme-ubgi.git
 [submodule "local-ubgi"]
 	path = local-ubgi
-	url = https://git.hebis.de/hds/local-ubgi.git
+	url = git@git.hebis.de/hds/local-ubgi.git
