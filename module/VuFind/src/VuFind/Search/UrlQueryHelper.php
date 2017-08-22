@@ -272,6 +272,30 @@ class UrlQueryHelper
     }
 
     /**
+     * Add several facets to the parameters.
+     *
+     * @param array $fields Facet fields
+     * @return string
+     */
+    public function addFacets($fields, $paramArray = null)
+    {
+        $filters = is_null($paramArray) ? $this->getParamArray() : $paramArray;
+        if (!isset($filters['filter'])) {
+            $filters['filter'] = [];
+        }
+        // Facets are just a special case of filters:
+        foreach ($fields as $field) {
+            $fieldName = $field['field'];
+            $value = $field['value'];
+            $operator = $field['operator'];
+            $prefix = ($operator == 'NOT') ? '-' : ($operator == 'OR' ? '~' : '');
+            $filters['filter'][] = $prefix . $fieldName . ':"' . $value . '"';
+        }
+
+        return '?' . $this->buildQueryString($filters);
+    }
+
+    /**
      * Add a filter to the parameters.
      *
      * @param string $filter     Filter to add
