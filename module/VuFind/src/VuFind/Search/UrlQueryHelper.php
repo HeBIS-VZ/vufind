@@ -397,6 +397,13 @@ class UrlQueryHelper
         return '?' . $this->buildQueryString($params, $escape);
     }
 
+    public function removeFacets($escape = true)
+    {
+        $params = $this->getParamArray();
+        unset($params['filter']);
+        return '?' . $this->buildQueryString($params, $escape);
+    }
+
     /**
      * Remove a filter from the parameters.
      *
