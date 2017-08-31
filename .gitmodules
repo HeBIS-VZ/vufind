@@ -22,3 +22,4 @@
 [submodule "local-ubgi"]
         path = local-ubgi
         url = git@git.hebis.de:hds/local-ubgi.git
+

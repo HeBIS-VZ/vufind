@@ -693,6 +693,31 @@ class Factory
     }
 
     /**
+     * Construct the search history helper.
+     *
+     * @param ServiceManager $sm Service manager.
+     *
+     * @return \VuFind\Search\History
+     */
+    public static function getSearchHistory(ServiceManager $sm)
+    {
+        /** @var \VuFind\Db\Table\Search $searchTable */
+        $searchTable = $sm->get('VuFind\DbTablePluginManager')
+            ->get("Search");
+
+        /** @var \VuFind\Search\Results\PluginManager $resultsManager */
+        $resultsManager = $sm->get('VuFind\SearchResultsPluginManager');
+
+        /** @var \VuFind\Search\Memory $searchMemory */
+        $searchMemory = $sm->get('VuFind\Search\Memory');
+
+        /** @var \Zend\Session\SessionManager $sessionManager */
+        $sessionManager = $sm->get('VuFind\SessionManager');
+
+        return new \VuFind\Search\History($searchTable, $sessionManager, $resultsManager, $searchMemory);
+    }
+
+    /**
      * Construct the search memory helper.
      *
      * @param ServiceManager $sm Service manager.
