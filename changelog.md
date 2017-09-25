@@ -1,5 +1,14 @@
 # Changelog #
 
+## 3.1.3-hds2-ms1.1 (25.08.2017) ##
+
+* [HDS2-176](https://eva.hebis.de/servicedesk/customer/portal/12/HDS2-176)
+* [HDS2-140](https://eva.hebis.de/servicedesk/customer/portal/12/HDS2-140)
+* [HDS2-183](https://eva.hebis.de/servicedesk/customer/portal/12/HDS2-183)
+* [HDS2-269](https://eva.hebis.de/servicedesk/customer/portal/12/HDS2-269)
+* [HDS2-213](https://eva.hebis.de/servicedesk/customer/portal/12/HDS2-213)
+* [HDS2-225](https://eva.hebis.de/servicedesk/customer/portal/12/HDS2-225)
+
 ## 3.1.3-hds2-ms1.0 (31.08.2017) ##
 
 * [HDS2-170](https://eva.hebis.de/servicedesk/customer/portal/12/HDS2-170)
