@@ -734,7 +734,7 @@ class AbstractRecord extends AbstractBase
         // Set up next/previous record links (if appropriate)
         if ($this->resultScrollerActive()) {
             $driver = $this->loadRecord();
-            $view->scrollData = $this->resultScroller()->getScrollData($driver);
+            $view->scrollData = $this->resultScroller()->getScrollData($this->searchClassId, $driver);
         }
 
         $view->callnumberHandler = isset($config->Item_Status->callnumber_handler)
