@@ -1,24 +1,25 @@
 [submodule "module/Hebis"]
-	path = module/Hebis
-	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/vufind-module-hebis.git
+        path = module/Hebis
+        url = git@git.hebis.de:hds/hds-module.git
 [submodule "themes/hebisbs3"]
-	path = themes/hebisbs3
-	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/hebisbs3.git
+        path = themes/hebisbs3
+        url = git@git.hebis.de:hds/theme-hebisbs3.git
 [submodule "themes/judaica"]
-	path = themes/judaica
-	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/theme-judaica.git
+        path = themes/judaica
+        url = git@git.hebis.de:hds/theme-judaica.git
 [submodule "themes/ubffm"]
-	path = themes/ubffm
-	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/theme-ubffm.git
+        path = themes/ubffm
+        url = git@git.hebis.de:hds/theme-ubffm.git
 [submodule "local-ubffm"]
-	path = local-ubffm
-	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/local-ubffm.git
+        path = local-ubffm
+        url = git@git.hebis.de:hds/local-ubffm.git
 [submodule "local-judaica"]
-	path = local-judaica
-	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/local-judaica.git
+        path = local-judaica
+        url = git@git.hebis.de:hds/local-judaica.git
 [submodule "themes/ubgi"]
-	path = themes/ubgi
-	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/theme-ubgi.git
+        path = themes/ubgi
+        url = git@git.hebis.de:hds/theme-ubgi.git
 [submodule "local-ubgi"]
-	path = local-ubgi
-	url = git@arkantos.hebis.uni-frankfurt.de:/opt/hebis/git/local-ubgi.git
+        path = local-ubgi
+        url = git@git.hebis.de:hds/local-ubgi.git
+

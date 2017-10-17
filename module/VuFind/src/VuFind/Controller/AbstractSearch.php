@@ -307,7 +307,7 @@ class AbstractSearch extends AbstractBase
 
             // Set up results scroller:
             if ($this->resultScrollerActive()) {
-                $this->resultScroller()->init($results);
+                $this->resultScroller()->init($this->searchClassId, $results);
             }
         }
 
