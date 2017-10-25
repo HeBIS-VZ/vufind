@@ -79,6 +79,15 @@ class Module
      */
     public function onBootstrap(MvcEvent $e)
     {
+        $e->getApplication()
+            ->getServiceManager()
+            ->get('viewhelpermanager')
+            ->setFactory('controllerName', function($sm) use ($e) {
+
+            $viewHelper = new \Hebis\View\Helper\ControllerName($e->getRouteMatch());
+            return $viewHelper;
+        });
+
         $bootstrapper = new Bootstrapper($e);
         $bootstrapper->bootstrap();
     }
